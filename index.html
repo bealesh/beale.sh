@@ -1,163 +1,195 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>David Beale | Web and Cloud Practitioner</title>
-<link href='https://fonts.googleapis.com/css?family=IBM Plex Mono' rel='stylesheet'>
-<style>
-	html {
-		font-family: "IBM Plex Mono";
-		font-size: 16px;
-		line-height: 1.5em;
-		max-width: 400px;
-		padding: 10px;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
-	h1, h2 {
-		font-weight: 600;
-		margin: 0;
-		color: #2d5775;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-		font-size: 1.25rem;
-	}
-	h1, h2, p {
-		margin: 0;
-	}
-	p {
-		margin-bottom: 1.5rem;
-	}
-	a {
-		color: black;
-		text-decoration: none;
-		border-bottom: 2px dotted currentColor;
-		transition: color 150ms ease-in-out;
-	}
-	a:hover,
-	a:focus {
-		color: #5683a3;
-		transition: 0ms;
-	}
-	a:visited {
-		color: #5683a3;
-	}
-	a:hover:visited,
-	a:focus:visited {
-		color: black;
-		transition: 0ms;
-	}
-	ul {
-		list-style-type: none;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-		font-size: 0;
-		line-height: 0;
-	}
-	li {
-		font-size: 24px;
-		line-height: 1.5em;
-		margin-bottom: 1.5em;
-		vertical-align: top;
-	}
-	.mt3 {
-		margin-top: 3em;
-	}
-	.tile {
-		display: block;
-		margin: 0;
-		padding: 0;
-		position: relative;
-		left: -3%;
-		transition: 300ms transform cubic-bezier(0, 0, 0, 1);
-	}
-	.tile a,
-	.tile img {
-		display: block;
-		width: 100%;
-		height: auto;
-		border: none;
-	}
-	.tile:hover,
-	.tile:focus {
-		transform: translate3d(0, -10px, 0);
-	}
-	.tile:hover:after,
-	.tile:focus:after {
-		content: '';
-		display: block;
-		position: absolute;
-		height: 10px;
-		top: 100%;
-		left: 0;
-		right: 0;
-	}
-	@media (min-width: 600px) {
-		html {
-			margin: 2rem;
-		}
-	}
-	@media (min-width: 800px) {
-		html {
-			margin: 2rem 4rem;
-			max-width: 1200px;
-		}
-		li {
-			display: inline-block;
-			width: calc(50% - 1rem);
-			padding-right: 1rem;
-		}
-		.content-container {
-			max-width: 400px;
-		}
-	}
-	@media (min-width: 600px) {
-		p a,
-		p span {
-			display: inline;
-		}
-	}
-	@media (max-width: 799px) {
-		p span {
-			display: block;
-			font-size: 0;
-			line-height: 0;
-		}
-	}
-	@media screen and (max-width: 600px) {
-		img {
-			width: 100%;
-		}	
-	}
-</style>
-</head>
-<body>
-	<main>
-		<h1>David Beale</h1>
-		<p>
-			<a href="mailto:david@beale.sh">david@beale.sh</a> <span>+</span> <a target="_blank" href="https://github.com/bealesh">github</a> <span>+</span> <a target="_blank" href="https://twitter.com/davidbeale">twitter</a> <span>+</span> <a target="_blank" href="https://instagram.com/dbealejr">instagram</a> <span>+</span> <a target="_blank" href="https://linkedin.com/in/dbealejr">linkedin</a>
-		</p>
-		<p>
-				<img src="media/db.jpg"> <br>
-		</p>
-		<p>
-        	web/cloud practitioner based in Chicago- senior software engineer at <a href="https://amfam.com">American Family Insurance</a>
-			<br>
-			currently working with/excited about: kubernetes, go(lang), elixir, typescript, python, GCP, AWS, terraform, distributed systems, ci/cd, <a href="https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition" target="_blank">pragmatic programming</a>
-		</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>David Beale | Web and Cloud Practitioner</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM Plex Mono"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        font-family: "IBM Plex Mono";
+        font-size: 16px;
+        line-height: 1.5em;
+        max-width: 400px;
+        padding: 10px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      h1,
+      h2 {
+        font-weight: 600;
+        margin: 0;
+        color: #2d5775;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+      }
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+      p {
+        margin-bottom: 1.5rem;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+        border-bottom: 2px dotted currentColor;
+        transition: color 150ms ease-in-out;
+      }
+      a:hover,
+      a:focus {
+        color: #5683a3;
+        transition: 0ms;
+      }
+      a:visited {
+        color: #5683a3;
+      }
+      a:hover:visited,
+      a:focus:visited {
+        color: black;
+        transition: 0ms;
+      }
+      ul {
+        list-style-type: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+      }
+      li {
+        font-size: 24px;
+        line-height: 1.5em;
+        margin-bottom: 1.5em;
+        vertical-align: top;
+      }
+      .mt3 {
+        margin-top: 3em;
+      }
+      .tile {
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: -3%;
+        transition: 300ms transform cubic-bezier(0, 0, 0, 1);
+      }
+      .tile a,
+      .tile img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: none;
+      }
+      .tile:hover,
+      .tile:focus {
+        transform: translate3d(0, -10px, 0);
+      }
+      .tile:hover:after,
+      .tile:focus:after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 10px;
+        top: 100%;
+        left: 0;
+        right: 0;
+      }
+      @media (min-width: 600px) {
+        html {
+          margin: 2rem;
+        }
+      }
+      @media (min-width: 800px) {
+        html {
+          margin: 2rem 4rem;
+          max-width: 1200px;
+        }
+        li {
+          display: inline-block;
+          width: calc(50% - 1rem);
+          padding-right: 1rem;
+        }
+        .content-container {
+          max-width: 400px;
+        }
+      }
+      @media (min-width: 600px) {
+        p a,
+        p span {
+          display: inline;
+        }
+      }
+      @media (max-width: 799px) {
+        p span {
+          display: block;
+          font-size: 0;
+          line-height: 0;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>David Beale</h1>
+      <p>
+        <a href="mailto:david@beale.sh">david@beale.sh</a> <span>+</span>
+        <a target="_blank" href="https://github.com/bealesh">github</a>
+        <span>+</span>
+        <a target="_blank" href="https://twitter.com/davidbeale">twitter</a>
+        <span>+</span>
+        <a target="_blank" href="https://instagram.com/dbealejr">instagram</a>
+        <span>+</span>
+        <a target="_blank" href="https://linkedin.com/in/dbealejr">linkedin</a>
+      </p>
+      <p><img src="media/db.jpg" /> <br /></p>
+      <p>
+        web/cloud practitioner based in Chicago - VP of Production Engineering @
+        <a href="https://galaxydigital.io">Galaxy Digital</a>
+        <br />
+        currently working with/excited about: kubernetes, go(lang), rust,
+        blockchain (eth, cosmos, sentinal, solana, etc.), python, GCP, AWS,
+        terraform, distributed systems, ci/cd, and
+        <a
+          href="https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition"
+          target="_blank"
+          >pragmatic programming</a
+        >
+      </p>
+    </main>
 
-		
-	</main>
-	
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-40272929-2', 'auto');
-	ga('send', 'pageview');
-	</script>
-</body>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-40272929-2", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
 </html>
